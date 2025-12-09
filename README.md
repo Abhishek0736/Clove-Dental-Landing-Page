@@ -4,7 +4,7 @@
 A fully responsive landing page for Clove Dental built as part of the Web Development Intern Assessment. The project demonstrates proficiency in HTML, CSS, and Vanilla JavaScript by translating Figma designs into a functional, interactive website.
 
 ## Live Demo
-https://clove-dental-landing-page-one.vercel.app/(#) 
+https://clove-dental-landing-page-one.vercel.app/
 
 ## Technologies Used
 - **HTML5** - Semantic markup structure
