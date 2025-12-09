@@ -226,7 +226,7 @@ img {
 }
 
 @media (max-width: 820px) {
-  .btn-call {
+  .btn-appointment {
     display: none;
   }
   .navbar {
@@ -235,15 +235,11 @@ img {
 }
 
 @media (max-width: 520px) {
+  .btn-appointment {
+    display: none !important;
+  }
   .logo img {
     max-width: 120px;
-  }
-  .btn-appointment {
-    padding: 8px 14px;
-    font-size: 12px;
-  }
-  .btn-appointment img {
-    width: 14px;
   }
   .container {
     padding: 0 12px;
@@ -252,14 +248,12 @@ img {
 
 @media (max-width: 380px) {
   .btn-appointment {
-    padding: 6px 10px;
-    font-size: 11px;
+    display: none !important;
   }
   .logo img {
     max-width: 100px;
   }
 }
-
 
 
 
