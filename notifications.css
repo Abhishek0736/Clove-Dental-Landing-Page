@@ -1,0 +1,60 @@
+/* NOTIFICATION SYSTEM */
+.notification {
+  position: fixed;
+  top: 80px;
+  right: 20px;
+  background: white;
+  padding: 16px 20px;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  z-index: 10000;
+  transform: translateX(400px);
+  opacity: 0;
+  transition: all 0.3s ease;
+  max-width: 350px;
+  border-left: 4px solid #2196F3;
+}
+
+.notification.show {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.notification-icon {
+  font-size: 24px;
+  flex-shrink: 0;
+}
+
+.notification-text {
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+  line-height: 1.4;
+}
+
+.notification-success {
+  border-left-color: #4CAF50;
+  background: #f1f8f4;
+}
+
+.notification-error {
+  border-left-color: #f44336;
+  background: #fef1f0;
+}
+
+.notification-info {
+  border-left-color: #2196F3;
+  background: #f0f7ff;
+}
+
+@media (max-width: 480px) {
+  .notification {
+    right: 10px;
+    left: 10px;
+    max-width: none;
+    top: 70px;
+  }
+}
