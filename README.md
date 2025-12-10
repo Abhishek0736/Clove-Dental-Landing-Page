@@ -119,11 +119,11 @@ Abhishek Kumar
 
 📧 Email: akabhi0736@gmail.com
 
-🔗 LinkedIn: linkedin.com/in/abhishek-ku0736
+🔗 LinkedIn: https://www.linkedin.com/in/abhishek-ku0736
 
-🐙 GitHub: github.com/Abhishek0736
+🐙 GitHub: https://github.com/Abhishek0736
 
-🌐 Portfolio: abhishek-web.vercel.app
+🌐 Portfolio: https://abhishek-web.vercel.app/
 
 ## Time Duration
 Completed within 48 hours
