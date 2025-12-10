@@ -1,3 +1,4 @@
+/* ========== NOTIFICATION SYSTEM ========== */
 function showNotification(message, type = 'info') {
   const notification = document.createElement('div');
   notification.className = `notification notification-${type}`;
@@ -14,6 +15,7 @@ function showNotification(message, type = 'info') {
   }, 3000);
 }
 
+/* ========== SECTION 1: NAVIGATION BAR ========== */
 document.addEventListener('DOMContentLoaded', () => {
   const btnAppointment = document.querySelector('.btn-appointment');
   const btnCall = document.querySelector('.btn-call');
@@ -53,6 +55,7 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 });
 
+/* ========== CAPTCHA GENERATION ========== */
 function generateCaptcha() {
   const captcha = Math.floor(1000 + Math.random() * 9000);
   const captchaElements = document.querySelectorAll('#captchaValue');
@@ -60,6 +63,7 @@ function generateCaptcha() {
   return captcha;
 }
 
+/* ========== SECTION 2: HERO SECTION WITH CONSULTATION FORM ========== */
 document.addEventListener('DOMContentLoaded', () => {
   generateCaptcha();
   
@@ -224,6 +228,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 });
 
+/* ========== SMOOTH SCROLL ========== */
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   anchor.addEventListener('click', function(e) {
     e.preventDefault();
@@ -238,6 +243,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   });
 });
 
+/* ========== SECTION 3: STATS STRIP WITH ANIMATED MARQUEE ========== */
 const track = document.querySelector('.stats-track');
 if (track) {
   const clone = track.cloneNode(true);
@@ -265,6 +271,7 @@ if (track) {
   });
 }
 
+/* ========== SECTION 4: ROOT CANAL TREATMENT CARDS ========== */
 const rctButtons = document.querySelectorAll('.rct-btn');
 rctButtons.forEach(btn => {
   btn.addEventListener('click', () => {
@@ -297,6 +304,7 @@ document.querySelectorAll('.rct-card').forEach(card => {
   });
 });
 
+/* ========== SECTION 5: PATIENT TESTIMONIALS (REAL SMILES) ========== */
 const smilesGrid = document.querySelector('.smiles-grid');
 if (smilesGrid) {
   smilesGrid.addEventListener('mouseenter', () => {
@@ -332,11 +340,9 @@ document.querySelectorAll('.smile-card').forEach(card => {
   });
 });
 
-const yearSpan = document.getElementById('footerYear');
-if (yearSpan) {
-  yearSpan.textContent = new Date().getFullYear();
-}
 
+
+/* ========== FOOTER SECTION ========== */
 document.querySelectorAll('.footer-link').forEach(link => {
   link.style.transition = 'all 0.3s ease';
   link.addEventListener('click', (e) => {
@@ -377,6 +383,7 @@ if (footerLogo) {
   });
 }
 
+/* ========== WELCOME MESSAGE ========== */
 setTimeout(() => {
   showNotification('Welcome to Clove Dental!', 'success');
 }, 500);

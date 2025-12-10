@@ -28,7 +28,7 @@ img {
   height: auto;
 }
 
-
+/* ========== SECTION 2: HERO SECTION WITH CONSULTATION FORM ========== */
 .hero-grid {
   display: flex;
   flex-direction: column;
@@ -100,10 +100,7 @@ img {
   width: 100%;
 }
 
-
-
-
-
+/* ========== SECTION 1: NAVIGATION BAR ========== */
 .navbar {
   background: white;
   padding: 10px 18px;
@@ -585,6 +582,7 @@ img {
 
 
 
+/* ========== SECTION 3: STATS STRIP WITH ANIMATED MARQUEE ========== */
 .stats-strip {
   background: #fff4ec;
   padding: 8px 0;
@@ -676,6 +674,7 @@ img {
 
 
 
+/* ========== SECTION 4: ROOT CANAL TREATMENT CARDS ========== */
 .rct-section {
   padding: 60px 0 80px;
   background-color: #fafafa;
@@ -988,11 +987,12 @@ img {
 
 
 
+/* ========== SECTION 5: PATIENT TESTIMONIALS (REAL SMILES) ========== */
 .smiles-section {
   padding: 80px 24px;
   background-color: #fdfaf7;
   width: 100%;
-  overflow: hidden; /* Added for marquee */
+  overflow: hidden;
 }
 
 .smiles-container {
@@ -1023,7 +1023,7 @@ img {
   display: flex;
   gap: 30px;
   padding: 0 20px;
-  animation: scroll 40s linear infinite;
+  animation: scroll 20s linear infinite;
   min-width: 100%;
 }
 
@@ -1191,6 +1191,7 @@ img {
 
 
 
+/* ========== SECTION 6: APPOINTMENT BOOKING FORM ========== */
 .appointment-section {
   padding: 40px 16px;
   background: #ffffff;
@@ -1446,8 +1447,9 @@ img {
 }  
 
 
+/* ========== FOOTER SECTION ========== */
 .clove-footer {
-  background-color: #4b2613;          /* dark chocolate brown */
+  background-color: #4b2613;
   color: #ffffff;
   padding: 26px 24px 20px;
 }
