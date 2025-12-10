@@ -116,10 +116,14 @@ Figma Design: [Test Assignment](https://www.figma.com/design/sm9DHhMwT84hL3vv3Rx
 Developed as part of Web Development Intern Assessment
 
 Abhishek Kumar
-Email address: akabhi0736@gmail.com
-LinkedIn: https://www.linkedin.com/in/abhishek-ku0736
-GitHub: https://github.com/Abhishek0736
-Portfolio: https://abhishek-web.vercel.app/
+
+📧 Email: akabhi0736@gmail.com
+
+🔗 LinkedIn: linkedin.com/in/abhishek-ku0736
+
+🐙 GitHub: github.com/Abhishek0736
+
+🌐 Portfolio: abhishek-web.vercel.app
 
 ## Time Duration
 Completed within 48 hours
